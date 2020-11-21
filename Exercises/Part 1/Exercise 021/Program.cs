@@ -7,7 +7,7 @@ namespace exercise_21
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+
 
     }
   }

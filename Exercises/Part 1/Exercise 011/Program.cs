@@ -6,9 +6,12 @@ namespace exercise_11
     {
         public static void Main(string[] args)
         {
-            int dayCount = 100;
+            int dayCount = 100; // I could have just changed the value from 100 to 200 here. Same for the hours and statement
+            dayCount =200;
             double hoursToLunch = 1;
+            hoursToLunch = 3.5;
             string statement = "Are you sure?";
+            statement = "It sure is!";
 
             // DO NOT TOUCH THESE!
             Console.WriteLine("Days to summer:");
@@ -18,6 +21,8 @@ namespace exercise_11
             Console.WriteLine("Coding is fun:");
             Console.WriteLine(statement);
 
+
+            Console.ReadLine();
         }
     }
 }
