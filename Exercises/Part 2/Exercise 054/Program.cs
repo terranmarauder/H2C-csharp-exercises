@@ -6,11 +6,39 @@ namespace exercise_54
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
+    Console.WriteLine("Input from");
+    int min = Convert.ToInt32(Console.ReadLine());
 
+    Console.WriteLine("Input to");
+    int max = Convert.ToInt32(Console.ReadLine());  
+            
+    // call method    
+    DivisibleByThreeInRange(min, max);
+    Console.ReadLine();
     }
 
-    // Write your method here:
+    // my method
+    public static void DivisibleByThreeInRange(int min, int max) 
+    {
 
+    while (true)
+    {
+       if (min > max) 
+            {
+             break;
+            } 
+
+       
+
+       if ((min % 3) == 0) 
+        {
+            Console.WriteLine(min);
+        }
+
+       min++; 
+    }            
+                      
+    }
   }
 }
+

@@ -6,12 +6,21 @@ namespace exercise_53
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
+    Console.WriteLine("Input numerator");
+    double numerator = Convert.ToDouble(Console.ReadLine());
 
-
+    Console.WriteLine("Input denominator");
+    double denominator = Convert.ToDouble(Console.ReadLine());
+    
+    
+    Division(numerator, denominator);
+    Console.ReadLine();
     }
 
-    // Write your method here:
-
+    public static void Division(double numerator,double denominator) 
+    {
+        Console.WriteLine(numerator/denominator);
+           
+    }
   }
 }

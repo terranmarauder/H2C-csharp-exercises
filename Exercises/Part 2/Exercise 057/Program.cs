@@ -2,18 +2,19 @@
 
 namespace exercise_57
 {
-  class Program
-  {
-    public static int Sum(int number1, int number2, int number3, int number4)
+class Program
     {
-      // write your code here
-      // remember to include return (at the end)!
-    }
-
-    public static void Main(String[] args)
-    {
-      int answer = Sum(4, 3, 6, 1);
-      Console.WriteLine("Sum: " + answer);
-    }
+    public static int Sum(int a, int b, int c, int d)
+        {
+            int answer = a + b + c + d;
+            return answer;
+            
+        }
+        public static void Main(string[] args)
+        {
+            int answer = Sum(1, 2, 3, 4);
+            Console.WriteLine(answer);
+            Console.ReadLine();
+        }
   }
 }

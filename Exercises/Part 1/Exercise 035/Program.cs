@@ -6,7 +6,18 @@ namespace exercise_35
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      while (true) 
+    {
+    Console.WriteLine("Give a number");
+    int input = Convert.ToInt32(Console.ReadLine());
+    if (input == 42) 
+    {
+        break;
+    }
+
+  
+    }
+
 
     }
   }

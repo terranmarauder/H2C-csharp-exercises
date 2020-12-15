@@ -6,11 +6,25 @@ namespace exercise_52
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
+    Console.WriteLine("Input number");
+    string userInput = Console.ReadLine();
+    int intValue = Convert.ToInt32(userInput);
+    Console.WriteLine("");
 
+    PrintFromNumberToOne(intValue);
+    Console.ReadLine();
     }
 
-    // Write your method here:
+    public static void PrintFromNumberToOne(int numOfTimes) 
+    {
+    int i = 0;
+    while (i < numOfTimes) 
+    {
+        Console.WriteLine((numOfTimes - i));
+        i++;
+    }
 
+
+    }
   }
 }

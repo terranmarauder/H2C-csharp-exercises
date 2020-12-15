@@ -5,14 +5,35 @@ namespace exercise_50
   class Program
   {
     public static void Main(string[] args)
+           
     {
-      // Call your method here:
- 
+    int i = 0;
+    Console.WriteLine("How many times?");
+    int numOfTimes = Convert.ToInt32(Console.ReadLine());
+
+    while (true)
+    {   
+        PrintPhrase();
+        i++;
+                
+    if (i == numOfTimes) 
+    {
+        break;
+    }  
+    
     }
 
-    // Write your method here:
-    public static void PrintPhrase() {
-
+    Console.ReadLine(); 
+    
     }
+   
+    public static void PrintPhrase() 
+    {      
+        {
+                Console.WriteLine("In a hole in the ground there lived a method");    
+        }
+    }
+        
   }
+    
 }
